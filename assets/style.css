@@ -106,6 +106,9 @@ header {
   flex-direction: column;
   margin-left: 5%;
 }
+.wrap {
+  margin-right: 5%;
+}
 
 .avo {
   height: 40px;
