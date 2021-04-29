@@ -62,7 +62,6 @@ a:hover {
 }
 
 a.button {
-  border: 2px solid #108d10;
   color: white;
   border-radius: 4px;
   padding: 6px 24px;
@@ -78,23 +77,23 @@ a.button:hover {
 
 header {
   width: 100%;
-  height: 100px;
+  height: 20vh;
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
   display: flex;
   justify-content: space-between;
-  background-color: #103E2E;
+  background-color: #04241d;
   padding: 5px 10px;
   align-items: center;
 }
 
 .logo {
   color: white;
-  font-family: 'Freckle Face', cursive;
+  font-family: 'Black Han Sans', sans-serif;
   text-decoration: none;
-  font-size: 30px;
+  font-size: 25px;
 }
 .github {
   height: 30px;
@@ -104,6 +103,8 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
+  margin-left: 5%;
 }
 
 .avo {
@@ -130,11 +131,7 @@ form {
   border-radius: 5px;
   text-align: center;
 }
-.mini {
-  font-size: 10px;
-  color: white;
-  margin-bottom: 10%;
-}
+
 
 ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
   color: white;
@@ -212,13 +209,43 @@ form {
 
   .logo {
     display: inline-block;
-    margin-bottom: 10px;
-    font-family: 'Freckle Face', cursive;
+    font-family: 'Black Han Sans', sans-serif;
     text-decoration: none;
   }
 
   form, .search-input {
     width: 100%;
+  }
+
+  .search-input {
+    margin-top: 5%;
+    width: 500px;
+    height: 70%;
+    border-color: transparent;
+    background-color: #0a3023;
+    color: white;
+    font-size: 16px;
+    line-height: 1.4;
+    padding-left: 5px;
+    padding-right: 5px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+  }
+
+  header {
+    width: 100%;
+    height: 20vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    background-color: #04241d;
+    padding: 5px 10px;
+    align-items: center;
   }
 
   .github-button {
