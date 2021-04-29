@@ -51,9 +51,6 @@ input[type="search"].dark::-webkit-search-cancel-button {
   --light-grey: #dadce0;
 }
 
-body {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
-}
 
 a {
   text-decoration: none;
@@ -81,7 +78,7 @@ a.button:hover {
 
 header {
   width: 100%;
-  height: 60px;
+  height: 100px;
   position: fixed;
   top: 0;
   left: 0;
@@ -95,6 +92,24 @@ header {
 
 .logo {
   color: white;
+  font-family: 'Freckle Face', cursive;
+  text-decoration: none;
+  font-size: 30px;
+}
+.github {
+  height: 30px;
+  width: 30px;
+}
+.head-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.avo {
+  height: 40px;
+  width: 40px;
+  margin: 0 10px;
 }
 
 form {
@@ -114,6 +129,11 @@ form {
   border: none;
   border-radius: 5px;
   text-align: center;
+}
+.mini {
+  font-size: 10px;
+  color: white;
+  margin-bottom: 10%;
 }
 
 ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
@@ -193,6 +213,8 @@ form {
   .logo {
     display: inline-block;
     margin-bottom: 10px;
+    font-family: 'Freckle Face', cursive;
+    text-decoration: none;
   }
 
   form, .search-input {
